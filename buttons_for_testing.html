@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0
+        }
+        .main {
+            height: 900px;
+            width: 300px;
+        }
+
+        .grouped_partnered_icons img{
+            width: 140px;
+
+        }
+        .grouped_partnered_icons{
+            width: 65vw;
+            /* height: fit-content; */
+            /* background-color: rgb(134, 45, 45); */
+            display: flex;
+            /* justify-content: center; */
+            margin-top: 20px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .partnered_icons {
+            width: 100vw;
+            height: fit-content;
+            /* background-color: rgb(216, 57, 57); */
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            justify-content: center;
+        }
+
+        .netbeans_icon, .krita_icon, .scrirra_icon, .blender_icon, .inkscape_icon {
+            height: 100px;
+            background-color: rgb(241, 241, 241);
+            align-items: center;
+            display: flex;
+            padding: 10px;
+        }
+
+        .netbeans_icon:hover, .krita_icon:hover, .scrirra_icon:hover, .blender_icon:hover, .inkscape_icon:hover {
+            background-color: rgb(212, 212, 212);
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div> 
+    <!-- FIX THE DIV ABOVE TO FIT EVERYTHING BELOW INSIDE -->
+    <div class="partnered_icons">  
+        <div class="grouped_partnered_icons">
+            <div class="netbeans_icon">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/netbeans-logo-png-transparent.png">
+            </div>
+            <div class="krita_icon">
+                <img src="https://i.pinimg.com/originals/2b/ec/7e/2bec7ed63e91fe174ca668e92b8d46f0.png">
+            </div>
+            <div class="scrirra_icon">
+                <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397182233/01e43887a66697a240f4832d4894013a.png">
+            </div>
+            <div class="blender_icon">
+                <img src="https://download.blender.org/branding/blender_logo.png">
+            </div>
+            <div class="inkscape_icon">
+                <img src="https://financesonline.com/uploads/2019/09/inkscape-logo1.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
